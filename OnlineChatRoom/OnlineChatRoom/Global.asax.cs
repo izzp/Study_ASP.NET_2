@@ -19,6 +19,9 @@ namespace OnlineChatRoom._3_10
 
         protected void Session_Start(object sender, EventArgs e)
         {
+            Application.Lock();
+            Application["count"] = int.Parse(Application["count"].ToString()) + 1;
+            Application.UnLock();
 
         }
 
