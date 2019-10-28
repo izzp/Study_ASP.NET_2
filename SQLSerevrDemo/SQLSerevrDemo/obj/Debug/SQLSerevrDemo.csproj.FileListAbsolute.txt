@@ -1,0 +1,6 @@
+d:\我的文档\visual studio 2013\Projects\SQLSerevrDemo\SQLSerevrDemo\bin\SQLSerevrDemo.dll.config
+d:\我的文档\visual studio 2013\Projects\SQLSerevrDemo\SQLSerevrDemo\bin\SQLSerevrDemo.dll
+d:\我的文档\visual studio 2013\Projects\SQLSerevrDemo\SQLSerevrDemo\bin\SQLSerevrDemo.pdb
+d:\我的文档\visual studio 2013\Projects\SQLSerevrDemo\SQLSerevrDemo\obj\Debug\SQLSerevrDemo.csprojResolveAssemblyReference.cache
+d:\我的文档\visual studio 2013\Projects\SQLSerevrDemo\SQLSerevrDemo\obj\Debug\SQLSerevrDemo.dll
+d:\我的文档\visual studio 2013\Projects\SQLSerevrDemo\SQLSerevrDemo\obj\Debug\SQLSerevrDemo.pdb
