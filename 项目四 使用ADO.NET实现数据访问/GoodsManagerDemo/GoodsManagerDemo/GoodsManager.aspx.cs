@@ -16,7 +16,7 @@ namespace GoodsManagerDemo
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("AddGoods.aspx");
         }
     }
 }

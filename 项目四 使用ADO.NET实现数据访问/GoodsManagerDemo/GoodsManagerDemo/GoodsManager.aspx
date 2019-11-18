@@ -38,10 +38,10 @@
             <asp:TemplateField HeaderText="编辑" ItemStyle-CssClass="center">
                 <ItemTemplate>
                     <a href='EditGoods.aspx?gdid=<%#Eval("gdID")%>'> 
-                        <asp:Image ID="Image1" runat="server" CssClass="noborder" ToolTip="编辑商品" ImageUrl="images/icon/mod.gif"/>
+                        <asp:Image ID="Image1" runat="server" CssClass="noborder" ToolTip="编辑商品" ImageUrl="images/icon/mod.png"/>
                     </a> &nbsp;&nbsp;
                     <asp:ImageButton ID="ImageButton2" runat="server" ToolTip="删除商品" 
-                        ImageUrl="images/icon/delete.gif" CommandName="delete" OnClientClick="return confirm('确定要删除该商品?');" />
+                        ImageUrl="images/icon/delete.png" CommandName="delete" OnClientClick="return confirm('确定要删除该商品?');" />
                 </ItemTemplate>
                 <ItemStyle HorizontalAlign="Center" />
             </asp:TemplateField>
