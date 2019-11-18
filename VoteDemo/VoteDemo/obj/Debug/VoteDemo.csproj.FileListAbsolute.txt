@@ -1,5 +1,0 @@
-C:\Users\Administrator\Desktop\VoteDemo\VoteDemo\bin\VoteDemo.dll.config
-C:\Users\Administrator\Desktop\VoteDemo\VoteDemo\bin\VoteDemo.dll
-C:\Users\Administrator\Desktop\VoteDemo\VoteDemo\bin\VoteDemo.pdb
-C:\Users\Administrator\Desktop\VoteDemo\VoteDemo\obj\Debug\VoteDemo.dll
-C:\Users\Administrator\Desktop\VoteDemo\VoteDemo\obj\Debug\VoteDemo.pdb
