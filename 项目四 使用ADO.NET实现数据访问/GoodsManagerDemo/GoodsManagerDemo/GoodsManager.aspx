@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GoodsManager.aspx.cs" Inherits="GoodsManagerDemo.GoodsManager" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GoodsManager.aspx.cs" Inherits="GoodsManagerDemo.GoodsManager" Theme="default" %>
 
 <!DOCTYPE html>
 
