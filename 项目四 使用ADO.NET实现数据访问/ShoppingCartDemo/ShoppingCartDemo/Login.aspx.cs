@@ -91,7 +91,7 @@ namespace ShoppingCartDemo
                     Response.Cookies["uInfo"]["uPwd"] = txtUPwd.Text;
                     Response.Cookies["uInfo"].Expires = System.DateTime.Now.AddDays(14);
                 }
-                ClientScript.RegisterStartupScript(GetType(), "", "<script>alert('登录成功！');location.href='GoodsList.aspx';</script>");
+                ClientScript.RegisterStartupScript(GetType(), "", "<script>alert('登录成功！');location.href='GoodList.aspx';</script>");
             }
             else
             {
