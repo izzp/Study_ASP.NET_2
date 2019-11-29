@@ -58,7 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="5_2.aspx" />
+    <Content Include="5_2345.aspx" />
     <Content Include="GoodsType.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>GoodsType.designer.cs</LastGenOutput>
@@ -75,12 +75,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="5_2.aspx.cs">
-      <DependentUpon>5_2.aspx</DependentUpon>
+    <Compile Include="5_2345.aspx.cs">
+      <DependentUpon>5_2345.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="5_2.aspx.designer.cs">
-      <DependentUpon>5_2.aspx</DependentUpon>
+    <Compile Include="5_2345.aspx.designer.cs">
+      <DependentUpon>5_2345.aspx</DependentUpon>
     </Compile>
     <Compile Include="GoodsType.designer.cs">
       <AutoGen>True</AutoGen>
