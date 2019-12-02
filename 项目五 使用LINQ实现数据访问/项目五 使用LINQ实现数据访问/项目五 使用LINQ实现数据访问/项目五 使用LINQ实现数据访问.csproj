@@ -60,9 +60,15 @@
   <ItemGroup>
     <Content Include="5_2345.aspx" />
     <Content Include="5_6.aspx" />
+    <Content Include="5_7_BBSNote.aspx" />
     <Content Include="GoodsType.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>GoodsType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="BBS.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>BBS.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
     <None Include="Web.Debug.config">
@@ -90,6 +96,18 @@
     <Compile Include="5_6.aspx.designer.cs">
       <DependentUpon>5_6.aspx</DependentUpon>
     </Compile>
+    <Compile Include="5_7_BBSNote.aspx.cs">
+      <DependentUpon>5_7_BBSNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5_7_BBSNote.aspx.designer.cs">
+      <DependentUpon>5_7_BBSNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BBS.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BBS.dbml</DependentUpon>
+    </Compile>
     <Compile Include="GoodsType.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -103,6 +121,11 @@
   <ItemGroup>
     <None Include="GoodsType.dbml.layout">
       <DependentUpon>GoodsType.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BBS.dbml.layout">
+      <DependentUpon>BBS.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <PropertyGroup>
