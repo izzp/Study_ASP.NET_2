@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="5_2345.aspx" />
+    <Content Include="5_6.aspx" />
     <Content Include="GoodsType.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>GoodsType.designer.cs</LastGenOutput>
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="5_2345.aspx.designer.cs">
       <DependentUpon>5_2345.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="5_6.aspx.cs">
+      <DependentUpon>5_6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="5_6.aspx.designer.cs">
+      <DependentUpon>5_6.aspx</DependentUpon>
     </Compile>
     <Compile Include="GoodsType.designer.cs">
       <AutoGen>True</AutoGen>
