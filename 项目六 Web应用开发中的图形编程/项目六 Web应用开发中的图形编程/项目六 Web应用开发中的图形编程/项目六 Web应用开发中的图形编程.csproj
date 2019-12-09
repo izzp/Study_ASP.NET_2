@@ -39,6 +39,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -69,6 +70,7 @@
     <Content Include="6_2.aspx" />
     <Content Include="6_3.aspx" />
     <Content Include="6_4.aspx" />
+    <Content Include="6_7.aspx" />
     <Content Include="images\img1.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -100,6 +102,13 @@
     </Compile>
     <Compile Include="6_4.aspx.designer.cs">
       <DependentUpon>6_4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="6_7.aspx.cs">
+      <DependentUpon>6_7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="6_7.aspx.designer.cs">
+      <DependentUpon>6_7.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
