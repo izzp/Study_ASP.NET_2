@@ -1,0 +1,11 @@
+/* 程序文件：default.css */
+/* 程序功能：设置静态网页的样式 */
+*{ margin:0; padding:0;}
+body {font-size:12px;text-align:center;border:1px solid #AAA;}
+a { color:#04D; text-decoration:none;}
+a:hover { color:#F50; text-decoration:underline;}
+.listofbrand {width:300px; margin:0 auto; text-align:center;margin-top:40px;}
+.listofbrand ul { list-style:none;}
+.listofbrand ul li { display:block; float:left; width:100px; line-height:20px;}
+.showmore { clear:both; text-align:center;padding-top:10px;}
+.showmore a { display:block; width:120px; margin:0 auto; line-height:24px; border:1px solid #AAA;}
