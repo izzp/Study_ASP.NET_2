@@ -67,9 +67,11 @@
   <ItemGroup>
     <Content Include="8_1.aspx" />
     <Content Include="8_2.aspx" />
-    <Content Include="8_3.aspx" />
-    <Content Include="8_4.aspx" />
+    <Content Include="8_3_1.aspx" />
+    <Content Include="8_7.aspx" />
+    <Content Include="8_8.aspx" />
     <Content Include="css\default.css" />
+    <Content Include="img\1.png" />
     <Content Include="scripts\jquery-3.4.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -88,19 +90,26 @@
     <Compile Include="8_2.aspx.designer.cs">
       <DependentUpon>8_2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="8_3.aspx.cs">
-      <DependentUpon>8_3.aspx</DependentUpon>
+    <Compile Include="8_3_1.aspx.cs">
+      <DependentUpon>8_3_1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="8_3.aspx.designer.cs">
-      <DependentUpon>8_3.aspx</DependentUpon>
+    <Compile Include="8_3_1.aspx.designer.cs">
+      <DependentUpon>8_3_1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="8_4.aspx.cs">
-      <DependentUpon>8_4.aspx</DependentUpon>
+    <Compile Include="8_7.aspx.cs">
+      <DependentUpon>8_7.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="8_4.aspx.designer.cs">
-      <DependentUpon>8_4.aspx</DependentUpon>
+    <Compile Include="8_7.aspx.designer.cs">
+      <DependentUpon>8_7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="8_8.aspx.cs">
+      <DependentUpon>8_8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="8_8.aspx.designer.cs">
+      <DependentUpon>8_8.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
